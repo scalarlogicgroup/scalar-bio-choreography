@@ -1,0 +1,9 @@
+# Protect deployment and terminal scripts
+*.sh
+!deploy-open-core.sh
+
+# Protect telemetry streams and IP scan logs
+*.log
+*.env
+secrets/
+telemetry_config.json
