@@ -7,6 +7,7 @@
 The BSC Engine is a Gaussian-process change detector for serial ctDNA. It is research software at roughly TRL 3–4, tested on simulated patients only. It hasn't been independently audited and isn't a medical device.
 
 - **Corrected preprint (v8):** [doi.org/10.5281/zenodo.23348706](https://doi.org/10.5281/zenodo.23348706)
+- **Sample data (500 simulated patients, observations only):** [huggingface.co/datasets/scalarlogicgroup/bsc-simulated-nsclc-sample](https://huggingface.co/datasets/scalarlogicgroup/bsc-simulated-nsclc-sample)
 - **Acquisition and licensing inquiries:** info@scalarlogicgroup.com
 
 Figures published earlier for this project (a 22-day lead, a 41% compute reduction, < 45 ms latency, 100% uptime and an 84% click reduction) have been withdrawn because they were not measured. In a 2026 developer self-assessment on simulated patients, the engine showed a median 42-day lead over imaging (3.5–4.5% false alarms), 40–42% compute saving from gating, p99 latency under 0.4 ms, and no failed requests in a short 4× load test. Clinician click reduction has not been measured. See the preprint correction notice.
